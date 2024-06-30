@@ -468,6 +468,7 @@ li:hover {
   padding: 30px;
   margin: 0 .8rem;
   @media(max-width: 1024px) {
+    margin: 0 1rem;
     padding: 40px;
   }
 }
@@ -528,33 +529,28 @@ li:hover {
   grid-gap: 20px;
 }
 
-.rect-bg {
-  width: 700px;
-
-  background: var(--light-pink);
-  position: absolute;
-  top: -10%;
-  right: -20%;
-  z-index: -1;
-  border-radius: 20px;
-}
-
 .portfolio .grid-box {
   position: relative;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-shadow:
       1px 2px 2px hsla(0, 0%, 50%, 0.2),
       2px 4px 4px hsla(0, 0%, 50%, 0.2),
       4px 8px 8px hsla(0, 0%, 50%, 0.2),
       8px 16px 16px hsla(0, 0%, 50%, 0.2),
       16px 32px 32px hsla(0, 0%, 50%, 0.2);
+      @media(max-width: 1024px) {
+        margin: 0 .6rem;
+      }
 }
 
 .grid-box img {
   max-width: 420px;
   border-radius: 5%;
   @media (max-width: 1024px) {
-    max-width: 400px;
+    max-width: 380px;
   }
 }
 
