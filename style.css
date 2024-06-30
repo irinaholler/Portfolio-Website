@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-  color: var(--grey);
+  color: var(--pink);
 }
 
 a {
@@ -135,7 +135,7 @@ header {
 
 .btn {
   display: none;
-  color: #ff00bf;
+  color: var(--pink);
   font-size: 1.4rem;
   cursor: pointer;
 }
@@ -301,7 +301,7 @@ li:hover {
   right: -15%;
   border-radius: 50%;
   z-index: -1;
-  @media (max-width: 1024px) {
+  @media (max-width: 905px) {
     width: 280px;
     height: 280px;
     right: -25%;
@@ -314,7 +314,7 @@ li:hover {
   background: var(--circle);
   position: absolute;
   top: 55%;
-  left: -30%;
+  left: -20%;
   border-radius: 50%;
   z-index: -1;
 }
