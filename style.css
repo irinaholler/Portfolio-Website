@@ -11,11 +11,11 @@ html, body {
   font-family: 'Poppins', arial;
   width: auto!important; 
   overflow-x: hidden!important;
-  overflow-y: scroll;
 } 
 
 html {
   height:100.1%;
+  overflow-y: scroll;
   }
 
 :root {
