@@ -7,10 +7,11 @@
   box-sizing: border-box;
 }
 
-body, html {
+html, body {
   font-family: 'Poppins', arial;
-  overflow-x: hidden;
-}
+  width: auto!important; 
+  overflow-x: hidden!important
+} 
 
 :root {
   --h1 :#1e1964;
@@ -31,7 +32,7 @@ h1 {
   line-height: 1.2;
   @media (max-width: 1024px) {
     line-height: 1;
-    letter-spacing: .8px;
+    letter-spacing: 0;
   }
   small {
     font-weight: 800;
@@ -51,10 +52,6 @@ h2 {
   font-size: 3rem;
   color: var(--h1);
   font-weight: bold;
-  letter-spacing: 1px;
-  @media (max-width: 1024px) {
-    letter-spacing: .8px;
-  }
 }
 
 h3 {
