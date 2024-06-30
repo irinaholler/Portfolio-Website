@@ -10,13 +10,13 @@
 html, body {
   font-family: 'Poppins', arial;
   width: auto!important; 
-  overflow-x: hidden!important;
 } 
 
 html {
   height:100.1%;
   overflow-y: scroll;
-  }
+  overflow-x: hidden!important;
+}
 
 :root {
   --h1 :#1e1964;
