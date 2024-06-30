@@ -10,7 +10,8 @@
 html, body {
   font-family: 'Poppins', arial;
   width: auto!important; 
-  overflow-x: hidden!important
+  overflow-x: hidden!important;
+  overflow-y: scroll;
 } 
 
 :root {
@@ -348,7 +349,7 @@ li:hover {
 
 /* Work-experience */
 
-#skills #projects {
+#skills-main #projects {
   scroll-behavior: smooth;
 }
 
@@ -421,6 +422,11 @@ li:hover {
 }
 
 /* Skills */
+
+.skills {
+  padding: 0 1rem;
+  margin: 0 auto;
+}
 
 .title {
   text-align: center;
