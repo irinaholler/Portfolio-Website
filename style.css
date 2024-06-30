@@ -66,6 +66,7 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 4rem 0;
+  background-color: #34A1CD;
 
   @media (min-width: 481px) and (max-width: 767px) {
     padding-left: 20px;
@@ -443,12 +444,12 @@ li:hover {
 }
 
 .circle-tree {
-  width: 500px;
-  height: 500px;
+  width: 800px;
+  height: 800px;
   background: var(--circle);
   position: absolute;
   top: 150%;
-  left: 55%;
+  left: 25%;
   border-radius: 50%;
   z-index: -1;
 }
@@ -456,12 +457,17 @@ li:hover {
 /* Portfolio Projects */
 
 .portfolio {
-  margin-top: 150px;
+  margin-top: 90px;
   position: relative;
+  @media (min-width: 481px) and (max-width: 767px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .portfolio .title {
   text-align: left;
+  padding: 0 2rem;
 }
 
 .portfolio .title .ctn-title {
@@ -496,8 +502,25 @@ li:hover {
   border-radius: 20px;
 }
 
-.portfolio .grid-box{
+.portfolio .grid-box {
   position: relative;
+}
+
+.portfolio .grid-box {
+  box-shadow:
+      1px 2px 2px hsla(0, 0%, 50%, 0.2),
+      2px 4px 4px hsla(0, 0%, 50%, 0.2),
+      4px 8px 8px hsla(0, 0%, 50%, 0.2),
+      8px 16px 16px hsla(0, 0%, 50%, 0.2),
+      16px 32px 32px hsla(0, 0%, 50%, 0.2);
+}
+
+.grid-box img {
+  max-width: 420px;
+  border-radius: 5%;
+  @media (max-width: 1024px) {
+    max-width: 320px;
+  }
 }
 
 .hover {
