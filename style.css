@@ -427,11 +427,6 @@ li:hover {
 
 /* Skills */
 
-.skills {
-  padding: 0 1rem;
-  margin: 0 auto;
-}
-
 .title {
   text-align: center;
   margin-bottom: 60px;
@@ -444,7 +439,7 @@ li:hover {
   grid-gap: 50px;
   padding: 0 1rem;
   @media(max-width: 1024px) {
-    padding: 0 1.5rem;
+    padding: 0 1.8rem;
     grid-template-columns:repeat(auto-fit, minmax(460px, auto));
   }
 }
@@ -471,6 +466,7 @@ li:hover {
 
 .grid-box {
   padding: 30px;
+  margin: 0 .8rem;
   @media(max-width: 1024px) {
     padding: 40px;
   }
